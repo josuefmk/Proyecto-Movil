@@ -1,0 +1,37 @@
+<ion-content>
+    <h2 class="dest">Programar Viajes</h2>
+    <ion-card class="top">
+        <ion-item (click)="addDirection()">
+            <ion-label class="normal">Ubicación:</ion-label>
+            <p >{{ubicacionViajes}}</p>
+            <ion-buttons slot="end">
+                <ion-button>
+                    <ion-icon slot="icon-only" color="danger" name="location"></ion-icon>
+                </ion-button>
+            </ion-buttons>
+        </ion-item>
+        <ion-item>
+            <ion-label position="fixed">Marca:</ion-label>
+            <ion-input type="text" [(ngModel)]="marcaViajes"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="fixed">Patente:</ion-label>
+            <ion-input type="text" maxlength="6" [(ngModel)]="patenteViajes"></ion-input>
+        </ion-item>
+    
+        <ion-item>
+            <ion-label position="fixed">Precio:</ion-label>
+            <p >{{precioViajes}}</p>
+        </ion-item>
+        <ion-item>
+            <ion-label position="fixed" >Capacidad:</ion-label>
+            <ion-input type="number" min="1" max="4" maxlength="4" [(ngModel)]="capacidadViajes"> </ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="fixed ">Hora Salida:</ion-label>
+            <ion-input type="text"  [(ngModel)]="horaViajes"> </ion-input>
+        </ion-item>
+
+        <ion-button expand="block" color="dark" (click)="guardarviaje()">Ingresar Viaje</ion-button>
+    </ion-card>
+</ion-content>

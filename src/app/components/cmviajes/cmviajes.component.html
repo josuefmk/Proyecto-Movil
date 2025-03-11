@@ -1,0 +1,21 @@
+<ion-content>
+    <h2 class="dest">Modificar Datos</h2>
+    <ion-card class="ion-text-center">
+        <ion-card-content>
+            <ion-item>
+                <ion-label position="fixed">Hora:</ion-label>
+                <ion-input type="text" [(ngModel)]="horaViaje"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label position="fixed">Precio: </ion-label>
+                <ion-input type="text" [(ngModel)]="marcaViaje"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="fixed">Precio: </ion-label>
+                <ion-input type="text" [(ngModel)]="patenteViaje"></ion-input>
+            </ion-item>
+        </ion-card-content>
+        <ion-button color="dark" (click)="edit()">Guardar Cambios</ion-button>
+    </ion-card>
+</ion-content>

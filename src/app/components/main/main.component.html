@@ -1,0 +1,30 @@
+<ion-content padding>
+    <img src="/assets/img/autoduoc.png" class="logoauto" *ngIf="!authenticated" >
+        <div class="boton1">
+            <ion-card-content>
+    <ion-button expand="block" color="dark" (click)="loginPasajero()" *ngIf="!authenticated" >Ingresar Como Pasajero</ion-button>
+    <ion-button expand="block" color="dark" (click)="loginConductor()" *ngIf="!authenticated" >Ingresar Como Conductor</ion-button>
+</ion-card-content>
+        </div>  
+    <ion-segment value="viajes" (ionChange)="segmentChanged($event)" *appHasRole="['cond']">
+        <div>
+            <img @fadein src="/assets/img/auto.png" slot="end" class="auto">
+            <ion-segment-button @fadein class="autoletras ion-text-center" value="pviajes">Programar Viaje</ion-segment-button>
+        </div>
+
+    </ion-segment>
+    <ion-segment value="viajes" (ionChange)="segmentChanged($event)" *appHasRole="['cond']">
+        <div>
+            <img @fadein src="/assets/img/auto.png" slot="end" class="auto">
+            <ion-segment-button @fadein class="autoletras ion-text-center" value="mviajes">Modificar Viaje</ion-segment-button>
+        </div>
+
+    </ion-segment>
+    <ion-segment value="viajes" (ionChange)="segmentChanged($event)" *appHasRole="['pasajero']">
+        <div>
+            <img @fadein src="/assets/img/gps.png " slot="end" class="auto">
+            <ion-segment-button @fadein class="autoletras ion-text-center" value="sviajes" >Viajes Disponibles</ion-segment-button>
+        </div>
+    </ion-segment>
+
+</ion-content>

@@ -1,0 +1,22 @@
+<ion-content>
+    <h2 class="dest">Destinos programados para ser solicitados</h2>
+    <ion-list>
+        <ion-card class="top" *ngFor="let v of viajes" lines="none">
+            <h2 class="text-center">Viaje programado por:</h2>
+            <h4 class="text-center">{{v.nombreconductor}}</h4>
+            <ion-item *ngIf="v.capacidad>0">
+                <ion-item> 
+                    <ion-label lines="full">
+                        <h2>Marca: {{v.marca}}</h2>
+                        <h2>Patente: {{v.patente}}</h2>
+                        <h2>Precio:${{v.horasalida}}</h2>
+                        <h2>Ubicación: {{v.ubicacion}}</h2>
+                        <h2>Capicidad: {{v.capacidad}}</h2>
+                        <h2>Hora Salida: {{v.precio}}</h2>
+                    </ion-label>
+                </ion-item>
+            </ion-item>
+            <ion-button class="text-center nombre" color="dark" name="person-outline" (click)="solicitarviaje(v)">Solicitar Viaje</ion-button>
+        </ion-card>
+    </ion-list>
+</ion-content>

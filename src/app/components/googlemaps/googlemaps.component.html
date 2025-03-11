@@ -1,0 +1,24 @@
+<ion-content>
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Ubicacion</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-card>
+    <form [formGroup]="directionForm" (ngSubmit)="calculateAndDisplayRoute(directionForm.value)">
+        <ion-item>
+            <ion-label position="floating">Origen</ion-label>
+            <ion-input formControlName="source"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="floating">Destino</ion-label>
+            <ion-input formControlName="destination"></ion-input>
+        </ion-item>
+        
+        <ion-button expand="block" color="dark" type="submit" [disabled]="directionForm.invalid">Generar Recorrido</ion-button>
+    </form>
+    <div #mapElement class="map"></div>
+    <ion-button expand="block" color="dark" (click)="guardarrecorido(directionForm.value)">Guardar Recorrido</ion-button>
+</ion-card>
+</ion-content></ion-content>

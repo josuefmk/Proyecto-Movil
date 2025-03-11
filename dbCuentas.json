@@ -1,0 +1,160 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "JOSUE AVILA MENARES",
+      "username": "jos.avila",
+      "password": "123456"      
+    },
+    {
+      "id": 2,
+      "nombre": "CLAUDIO ALEJANDRO BENAVIDES VALDES",
+      "username": "clau.benavides",
+      "password": "123456"     
+    },
+    {
+      "id": 3,
+      "nombre": "JOSE ANTONIO BRICEÑO RIVERO",
+      "username": "jo.briceno",
+      "password": "123456"     
+    },
+    {
+      "id": 4,
+      "nombre": "NICOLAS MARCEL CABELLO PINEDA",
+      "username": "nic.cabellop",
+      "password": "123456"     
+    },
+    {
+      "id": 5,
+      "nombre": "JOSE ESTEBAN CABEZAS GONZALEZ",
+      "username": "jo.cabezasg",
+      "password": "123456"
+    },
+    {
+      "id": 6,
+      "nombre": "JAVIER IGNACIO COLOMA TOBAR",
+      "username": "j.colomat",
+      "password": "123456"
+    },
+    {
+      "id": 7,
+      "nombre": "YOJAN BRANDON CORTES DIAZ",
+      "username": "yoj.cortes",
+      "password": "123456"
+    },
+    {
+      "id": 8,
+      "nombre": "AXEL ELGUETA TAPIA",
+      "username": "ax.elgueta",
+      "password": "123456"
+    },
+    {
+      "id": 9,
+      "nombre": "BENJAMIN JESUS FILIPPI VEGA",
+      "username": "be.filippi",
+      "password": "123456"
+    },
+    {
+      "id": 10,
+      "nombre": "LUIS PATRICIO LAGOS ABARCA",
+      "username": "lu.lagos",
+      "password": "123456"
+    },
+    {
+      "id": 11,
+      "nombre": "RODRIGO ALONSO LETELIER ISAMI",
+      "username": "ro.letelieri",
+      "password": "123456"
+    },
+    {
+      "id": 12,
+      "nombre": "BASTIAN DANILO MADRID BUGUENO",
+      "username": "ba.madridb",
+      "password": "123456"
+    },
+    {
+      "id": 13,
+      "nombre": "BRAYAN ALEXANDER MIRANDA SAAVEDRA",
+      "username": "br.miranda",
+      "password": "123456"
+    },
+    {
+      "id": 14,
+      "nombre": "FERNANDO IGNACIO MORALES GALLARDO",
+      "username": "fern.moralesg",
+      "password": "123456"
+    },
+    {
+      "id": 15,
+      "nombre": "IGNACIO ANDRES MORALES GONZALEZ",
+      "username": "ign.moralesg",
+      "password": "123456"
+    },
+    {
+      "id": 16,
+      "nombre": "JORGE LUCAS ÑANCUPIL LIZAMA",
+      "username": "jor.nancupil",
+      "password": "123456"
+    },
+    {
+      "id": 17,
+      "nombre": "LUIS ESTEBAN OLIVARES ROJAS",
+      "username": "lu.olivaresr",
+      "password": "123456"
+    },
+    {
+      "id": 18,
+      "nombre": "BENITO ANDRES OLMOS MONDACA",
+      "username": "ben.olmos",
+      "password": "123456"
+    },
+    {
+      "id": 19,
+      "nombre": "WALTER ALEJANDRO PACHECO CABRERA",
+      "username": "walt.pacheco",
+      "password": "123456"
+    },
+    {
+      "id": 20,
+      "nombre": "FABIAN ANDRES PULGAR ALVAREZ",
+      "username": "fabi.pulgar",
+      "password": "123456"
+    },
+    {
+      "id": 21,
+      "nombre": "DANIEL REBOLLEDO ACOSTA",
+      "username": "da.rebolledo",
+      "password": "123456"
+    },
+    {
+      "id": 22,
+      "nombre": "TOMAS ESTEBAN TORRES LEON",
+      "username": "to.torres",
+      "password": "123456"
+    },
+    {
+      "id": 23,
+      "nombre": "LUCIANO ESTEBAN URIBE VERA",
+      "username": "luc.uribe",
+      "password": "123456"
+    },
+    {
+      "id": 24,
+      "nombre": "YERKO UVAL MONTECINOS",
+      "username": "y.uval",
+      "password": "123456"
+    },
+    {
+      "id": 25,
+      "nombre": "CAMILA VILLARROEL NUNEZ",
+      "username": "ca.villarroeln",
+      "password": "123456"
+    },
+    {
+      "id": 26,
+      "nombre": "JEREMY ZUNIGA SEPULVEDA",
+      "username": "jere.zuniga",
+      "password": "123456"
+    }
+  ]
+}

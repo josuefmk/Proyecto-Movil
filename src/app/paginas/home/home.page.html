@@ -1,0 +1,36 @@
+<ion-menu contentId="main-content">
+    <ion-header>
+        <ion-toolbar>
+            <h2 color="medium" class="usercenter">{{nombreviaje}}</h2>
+            <ion-list class="lista">
+                <ion-button color="medium">
+                    <ion-icon name="card-outline"></ion-icon>
+                    Metodo de pago
+                </ion-button>
+                <ion-button color="medium">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                    Historial
+                </ion-button>
+                <ion-button color="medium" (click)="logout()">
+                    <ion-icon name="log-out-outline"></ion-icon>
+                    Cerrar Sesión
+                </ion-button>
+            </ion-list>
+        </ion-toolbar>
+    </ion-header>
+
+
+</ion-menu>
+<div class="ion-page" id="main-content">
+    <ion-header>
+        <ion-toolbar color="medium">
+            <ion-buttons slot="start" color="dark">
+                <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+            <ion-title>TeLLevoApp</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <router-outlet></router-outlet>
+    </ion-content>
+</div>
